@@ -2,8 +2,6 @@ import {HomeIcon, File, UsersRound} from 'lucide-react'
 import Link from 'next/link'
 
 import { NavButton } from '@/components/NavButton'
-import { url } from 'inspector'
-
 
 export function Header(){
 
