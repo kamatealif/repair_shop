@@ -2,11 +2,12 @@ import {HomeIcon, File, UsersRound} from 'lucide-react'
 import Link from 'next/link'
 
 import { NavButton } from '@/components/NavButton'
+import { ModeToggle } from './ModeToggle'
 
 export function Header(){
 
     return (
-       <header className="animate-slide bg-linear-to-r from-emerald-100-100 to-green-150 mt-2 h-12 p-2 shadow-md sticky top-0 z-20">
+       <header className="animate-slide bg-linear-to-r from-emerald-100-100 to-green-150 h-12 p-2 shadow-md sticky top-0 z-20">
 
             <div className='flex h-8 items-center justify-between w-full'>
 
@@ -38,6 +39,8 @@ export function Header(){
                     label="Customers"
                     icon={UsersRound}
                     />
+
+                <ModeToggle/>
                 </div>
 
             </div>
